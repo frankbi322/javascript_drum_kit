@@ -27,7 +27,7 @@ body {
 }
 
 .playing {
-  transform:scale(1.1);
+  transform:scale(2);
   border-color: #ffc600;
   box-shadow: 0 0 10px #ffc600;
 }
@@ -35,4 +35,11 @@ body {
 kbd {
   display: block;
   font-size: 40px;
+}
+
+.sound{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffc600;
 }
